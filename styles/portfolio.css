@@ -1,0 +1,152 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* shared style */
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+
+.btn-Primary {
+
+    color: white;
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.dark2 {
+    color: #474747;
+}
+
+.nav-tittle {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.section-tittle {
+    font-size: 25;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #757575;
+}
+
+/* nav styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 51px 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 41px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* hearer */
+.header-img {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+
+}
+
+/* banner styles| */
+.banner-content {
+    height: 420px;
+    width: 585px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-tittle {
+    font-size: 45px;
+    font-weight: 600px;
+    color: #474747;
+}
+
+.banner-heading {
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.banner-description {
+    font-size: 18px;
+    font-weight: bold;
+    color: 757575;
+}
+
+.banner image {
+    width: 585px;
+    height: 676px;
+}
+
+/* main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about styles */
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+}
+
+.item-tittle {
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 0;
+
+}
+
+.item-description {
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+    margin-top: 0;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 290px;
+    width: 830px;
+}
